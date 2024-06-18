@@ -1,8 +1,4 @@
-# Food AI: Cross-modal Representation Learning and Food Recipe Retrieval
-Code for the CS 536: Machine Learning project at Rutgers University. Inspired by the CVPR paper [Learning Cross-Modal Embeddings for Cooking Recipes and Food Images](https://ieeexplore.ieee.org/document/8099810)
-
------------------------------------------
-### Work Done
+### Synesthetic-Culinary-Navigator
 
 * Built a system for retrieval of food recipes given images of corresponding food
 * Beat the CCA baseline top-10 recall for recipe retrieval in the original im2recipe paper by 20 percentage points by using  ResNet and BERT feature extractors and introducing cross-modality through a shared embedding layer
@@ -16,13 +12,6 @@ Code for the CS 536: Machine Learning project at Rutgers University. Inspired by
 * PyTorch
 * Hugging Face
 * seaborn
-
-***
-
-### Report and Presentation 
-
-You can access the report [here](https://github.com/kunjmehta/cross-modal-retrieval-food-ai/blob/main/cs536_s22_group_15_final_report.pdf) and presentation 
-[here.](https://github.com/kunjmehta/cross-modal-retrieval-food-ai/blob/main/cs536_s22_group_15_final_presentation.pdf)
 
 ### Research Papers Referred
 
@@ -41,5 +30,3 @@ You can access the report [here](https://github.com/kunjmehta/cross-modal-retrie
 * "Viz.ipynb": contains code and visualizations seen in the report.
 
 Note: "Step-3.ipynb" is extra part of the project that aimed to enhance the explanibility of the retrieval system by leveraging attention mechanisms in ViT and BERT
-
-Made as a team with [@Neil-98](https://github.com/Neil-98), Aishwarya Harpale and Linqi Xiao
